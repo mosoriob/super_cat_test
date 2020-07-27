@@ -1,0 +1,8 @@
+step: 1
+name: super_cat_test
+docker_image: super_cat_test:latest
+framework: !!python/object/apply:mic.constants.Framework
+- !!python/tuple
+  - general
+  - mintproject/generic:latest
+container_name: super_cat_test_b56c26ed
